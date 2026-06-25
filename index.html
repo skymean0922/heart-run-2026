@@ -415,6 +415,19 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;}
 .sticky-price b{display:block;font-size:15px;color:var(--primary-dark);}
 .sticky-cta .btn{flex:1;padding:13px 18px;}
 @media(min-width:1024px){.sticky-cta{display:none;}}
+.heartrun-photo {
+  padding: 0 !important;
+  overflow: hidden;
+  aspect-ratio: 16 / 9;
+  background: #dff5ff;
+}
+
+.hero-main-img {
+  width: 100%;
+  height: 100%;
+  display: block;
+  object-fit: cover;
+}
 </style>
 </head>
 <body>
@@ -526,13 +539,10 @@ button{font-family:inherit;cursor:pointer;border:none;background:none;}
       <a href="#course" class="btn btn-outline-light">코스 살펴보기</a>
     </div>
 
-    <!-- 이미지 placeholder: heartrun 메인 비주얼 -->
-    <div class="ph heartrun-photo">
-      <svg class="icon-lg ph-icon"><use href="#ic-camera"/></svg>
-      <p>메인 키비주얼 이미지 합입 예정
-        <span class="ph-spec">권장 비율 16:9 · 화창하고 역동적인 현장감 있는 사진</span></p>
-    </div>
-  </div>
+    <!-- 메인 비주얼 이미지 -->
+<div class="ph heartrun-photo">
+  <img src="keyart.jpg" alt="2026 하트런 메인 비주얼" class="hero-main-img">
+</div>
 </section>
 
 <!-- =========================================================
